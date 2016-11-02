@@ -148,10 +148,10 @@ rows :: Matrix a -> Matrix a
 rows = id
 
 cols :: Matrix a -> Matrix a
-cols = undefined -- TODO
+cols = transpose -- from Data.List(transpose)
 
 boxes :: Matrix a -> Matrix a
-boxes = undefined
+boxes = undefined -- we'll see just after
 
 group :: [a] -> [[a]]
 group = undefined  -- TODO
